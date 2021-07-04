@@ -6,6 +6,12 @@ body {
 .header-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+.dream-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .flex-box {
   display: flex;
@@ -17,18 +23,19 @@ body {
 .orange {
   color: orange;
 }
-.header-section img {
-  width: 110%;
+.half-box img {
+  width: 100%;
 }
-.header-section h1 {
+h1 {
   font-size: 50px;
   line-height: 10px;
 }
-.header-section h2 {
+h2 {
   font-size: 60px;
 }
-.header-section p {
+p {
   font-size: 18px;
+  line-height: 25px;
   text-align: justify;
   padding-bottom: 20px;
 }
