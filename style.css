@@ -69,3 +69,11 @@ p {
   border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
 }
+footer p {
+  margin-top: 50px;
+  text-align: center;
+}
+.link-tag {
+  font-weight: bold;
+  text-decoration: none;
+}
