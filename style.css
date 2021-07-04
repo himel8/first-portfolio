@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.flex-box {
+  display: flex;
+}
+.half-box {
+  width: 40%;
+  padding: 2% 5%;
+}
+.orange {
+  color: orange;
+}
+.header-section img {
+  width: 110%;
+}
+.header-section h1 {
+  font-size: 50px;
+  line-height: 10px;
+}
+.header-section h2 {
+  font-size: 60px;
+}
+.header-section p {
+  font-size: 18px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.btn-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+}
